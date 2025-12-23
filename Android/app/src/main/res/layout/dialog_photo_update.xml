@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Z2Activity">
+
+    <!-- 중앙 정렬된 흰색 박스 -->
+    <LinearLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z2 - 사진 업데이트"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진 변경"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진 삭제"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button" />
+
+</LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

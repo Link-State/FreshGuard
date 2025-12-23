@@ -1,0 +1,8 @@
+package com.example.caps_project.models.requests
+
+import com.google.gson.annotations.SerializedName
+
+data class RequestLogin(
+    @SerializedName("user_id") val user_id: String,
+    @SerializedName("user_pwd") val user_pwd: String
+)

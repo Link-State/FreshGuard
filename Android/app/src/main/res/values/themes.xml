@@ -1,0 +1,9 @@
+<resources>
+    <style name="Base.Theme.Caps_project" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Theme.Caps_project" parent="Base.Theme.Caps_project" />
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp">
+
+    <!-- 단계 -->
+    <TextView
+        android:id="@+id/recipe_guide_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로드 중..."
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- (사진1) 플레이스홀더 -->
+    <ImageView
+        android:id="@+id/recipe_guide_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#EEE"
+        android:layout_marginBottom="12dp"/>
+
+</LinearLayout>

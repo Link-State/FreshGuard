@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="24dp"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="16dp"
+    android:gravity="center_horizontal">
+
+    <CheckBox
+        android:id="@+id/cb_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등록"
+        android:textSize="18sp"
+        android:layout_gravity="left"/>
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:background="#EEE"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/tv_ingredient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="판별 식재료: 사과"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="판별 날짜: 2025.10.01 (수)"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_freshness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="판별 신선도: 🍎 - 낮음"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- 버튼을 하단으로 밀어내기 위한 빈 공간 (Spacer) -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 화면 하단에 위치할 완료 버튼 -->
+    <Button
+        android:id="@+id/btn_complete_in_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="완료"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/> <!-- 위 요소와 최소 간격 -->
+
+</LinearLayout>
