@@ -71,4 +71,3 @@
 <img width="270" height="585" alt="Picture17" src="https://github.com/user-attachments/assets/7476b0f7-0127-4def-92f8-b2dd4fc3d7b3" />
 
 <br>
-
