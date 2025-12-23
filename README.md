@@ -6,7 +6,7 @@
 
 ### 개발 환경
 > App : Android Kotlin<br>
-> Server : Ubuntu 24.04 LTS + MySQL + Flask<br>
+> Server : Ubuntu 24.04 LTS + MySQL + Python 3.12.6 (Flask)<br>
 > AI : Kaggle + PyTorch(YOLOv2 + Efficient Net)<br>
 
 ### 역할
