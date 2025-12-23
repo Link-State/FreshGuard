@@ -23,7 +23,7 @@
   + YOLOv2를 통해 객체 탐지, Efficient Net을 통해 탐지한 객체에 대해서 식재료 종류 + 신선도 분류
   + 사과, 바나나, 오렌지, 피망, 망고, 토마토, 감자, 당근, 오이, 딸기 총 10가지 식재료를 판별하며 식재료 품질에 대해 좋음, 보통, 나쁨 총 3단계로 분류
 
-#### 실행결과
+### 실행결과
 
 진입화면<br>
 <img width="270" height="585" alt="Picture3" src="https://github.com/user-attachments/assets/7d305f7e-1abf-4dd5-95be-0714cd7145e8" />
